@@ -8,21 +8,10 @@ I am currently pursuing my Ph.D. in Statistics and Machine Learning in the Depar
 
 ## Education Experience
 
-### Georgia State University <span style="float:right;">Atlanta, GA</span>
-**Ph.D. Student in Machine Learning & Data Science**, Department of Mathematics & Statistics  
-*Aug 2025 – Present*  
+- **Georgia State University** Ph.D. Student in Machine Learning & Data Science, Department of Mathematics & Statistics, Atlanta GA, Aug 2025 – Present
+- **Michigan State University** M.S. in Statistics, Department of Statistics and Probability, East Lansing MI, Aug 2023 – May 2025
+- **University of International Business and Economics** B.S. in Financial Mathematics, College of Statistics, Beijing China, Sep 2019 – Jul 2023
 
----
-
-### Michigan State University <span style="float:right;">East Lansing, MI</span>
-**M.S. in Statistics**, Department of Statistics and Probability, College of Natural Science  
-*Aug 2023 – May 2025*  
-
----
-
-### University of International Business and Economics <span style="float:right;">Beijing, China</span>
-**B.S. in Financial Mathematics**, School of Statistics  
-*Sep 2019 – Jul 2023*  
 ## Research Interests
 
 - **Statistical Machine Learning:** graph neural networks, transfer learning, and statistical theory of deep learning  
