@@ -16,6 +16,6 @@ I am currently pursuing my Ph.D. in Statistics and Machine Learning in the Depar
 
 ## Visitor
 
-<div style="width:200px; height:auto; transform:scale(0.75); transform-origin: top left;">
+<div style="width:600px; height:auto; transform:scale(0.8); transform-origin: top left;">
   <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=japM8wJf8INtZc2xKn-hZEqcSPP-7jDRFyzqKu9B2P0&cl=ffffff&w=a"></script>
 </div>
