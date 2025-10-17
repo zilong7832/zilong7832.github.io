@@ -4,13 +4,16 @@ layout: homepage
 
 ## About Me
 
-I am currently pursuing my Ph.D. in Statistics and Machine Learning in the Department of Mathematics and Statistics at Georgia State University,  where I am fortunate to be advised by [**Dr. Chi-Kuang Yeh**](https://chikuang.github.io/).  
+I am currently pursuing my Ph.D. in Statistics and Machine Learning in the Department of Mathematics and Statistics at Georgia State University,  where I am fortunate to be advised by <a href="https://chikuang.github.io/" style="color:#0099cc; font-weight:bold;">Dr. Chi-Kuang Yeh</a>.  
 
 ## Education Experience
 
-- **Georgia State University** Ph.D. Student in Machine Learning & Data Science, Department of Mathematics & Statistics, Atlanta GA, Aug 2025 – Present
-- **Michigan State University** M.S. in Statistics, Department of Statistics and Probability, East Lansing MI, Aug 2023 – May 2025
-- **University of International Business and Economics** B.S. in Financial Mathematics, College of Statistics, Beijing China, Sep 2019 – Jul 2023
+- **Georgia State University**, Ph.D. Student in Machine Learning & Data Science, Department of Mathematics & Statistics
+Atlanta GA, Aug 2025 – Present
+- **Michigan State University**, M.S. in Statistics, Department of Statistics and Probability
+East Lansing MI, Aug 2023 – May 2025
+- **University of International Business and Economics**, B.S. in Financial Mathematics, College of Statistics
+Beijing China, Sep 2019 – Jul 2023
 
 ## Research Interests
 
