@@ -12,6 +12,10 @@ I am currently pursuing my Ph.D. in Statistics and Machine Learning in the Depar
 - **Functional Data Analysis (FDA):** time series, functional principal component analysis, bandwidth selection
 - **Bioinformatics / Computational Biology:** single-cell multi-omics integration, RNA–protein prediction, and molecular data analysis
 
+{% include_relative _includes/publications.md %}
+
 ## Visitor
 
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=japM8wJf8INtZc2xKn-hZEqcSPP-7jDRFyzqKu9B2P0&cl=ffffff&w=a"></script>
+<div style="width:200px; height:auto; transform:scale(0.75); transform-origin: top left;">
+  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=japM8wJf8INtZc2xKn-hZEqcSPP-7jDRFyzqKu9B2P0&cl=ffffff&w=a"></script>
+</div>
