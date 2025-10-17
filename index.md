@@ -4,20 +4,11 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am currently pursuing my Ph.D. in **Statistics and Machine Learning** in the **Department of Mathematics and Statistics** at **Georgia State University**,  where I am fortunate to be advised by [**Dr. Chi-Kuang Yeh**](https://chikuang.github.io/).  
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Statistical Machine Learning:** graph neural networks, transfer learning, and statistical theory of deep learning  
+- **Functional Data Analysis (FDA):** time series, functional principal component analysis, bandwidth selection
+- **Bioinformatics / Computational Biology:** single-cell multi-omics integration, RNA–protein prediction, and molecular data analysis
 
-## News
-
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
-
-{% include_relative _includes/publications.md %}
-
-{% include_relative _includes/services.md %}

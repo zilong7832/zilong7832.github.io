@@ -1,0 +1,36 @@
+<div class="sidebar">
+  <!-- 头像 -->
+  <div class="author">
+    <a href="{{ '/' | relative_url }}">
+      <img class="author-avatar" src="{{ site.avatar | relative_url }}" alt="{{ site.title }}">
+    </a>
+  </div>
+
+  <!-- 姓名 / 职位 / 单位 / 邮箱 -->
+  <div class="author-info">
+    <h2 class="author-name">{{ site.title }}</h2>
+    {% if site.position %}<div class="author-position">{{ site.position }}</div>{% endif %}
+    {% if site.affiliation %}<div class="author-affiliation">{{ site.affiliation }}</div>{% endif %}
+    {% if site.email %}<div class="author-email">{{ site.email }}</div>{% endif %}
+  </div>
+
+  <!-- 社交图标（主题已有的变量） -->
+  <div class="author-links">
+    {% if site.google_scholar %}<a href="{{ site.google_scholar }}" target="_blank" title="Google Scholar">g</a>{% endif %}
+    {% if site.cv_link %}<a href="{{ site.cv_link | relative_url }}" target="_blank" title="CV">cv</a>{% endif %}
+    {% if site.github_link %}<a href="{{ site.github_link }}" target="_blank" title="GitHub">gh</a>{% endif %}
+    {% if site.linkedin %}<a href="{{ site.linkedin }}" target="_blank" title="LinkedIn">in</a>{% endif %}
+    {% if site.twitter %}<a href="{{ site.twitter }}" target="_blank" title="Twitter">x</a>{% endif %}
+  </div>
+
+  <!-- ✨ 新增：左侧菜单（来自 _config.yml 的 menu） -->
+  {% if site.menu %}
+  <nav class="sidebar-nav">
+    {% for item in site.menu %}
+      <div class="nav-item">
+        <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+      </div>
+    {% endfor %}
+  </nav>
+  {% endif %}
+</div>
