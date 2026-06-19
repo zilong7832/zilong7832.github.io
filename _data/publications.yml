@@ -1,4 +1,15 @@
 main:
+  - title: "AURA: Adaptive Uncertainty-aware Refinement for LLM-as-a-Judge Auditing"
+    authors: "Zilong Zhang, Yi-Ting Hung, Weiyi He, Junxi Zhang, Lei Ding, Chi-Kuang Yeh"
+    conference_short: "arXiv'26"
+    conference: "Under review, 2026"
+    pdf: "https://arxiv.org/pdf/2606.19714.pdf"
+    code:
+    page: "https://arxiv.org/abs/2606.19714"
+    bibtex:
+    image: ./assets/img/aura.png
+    notes: "First Author"
+
   - title: "Quantifying and Auditing LLM Evaluation via Positive--Unlabeled Learning"
     authors: "Zilong Zhang, Yi-Ting Hung, Lei Ding, Chi-Kuang Yeh"
     conference_short: "arXiv'26"
