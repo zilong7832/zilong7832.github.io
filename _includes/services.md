@@ -15,15 +15,15 @@
   </li>
 </ul>
 
-<h4 style="margin:0 10px 0;">Conference Attendance</h4>
-
-<ul style="margin:0 0 20px;">
-  <li>
-    <a href="https://aistats.org/aistats2026/">
-      <autocolor>International Conference on Artificial Intelligence and Statistics (AISTATS), 2026</autocolor>
-    </a>
-  </li>
-  <li>
-    <autocolor>Georgia Statistics Day, 2025</autocolor>
-  </li>
-</ul>
+# <h4 style="margin:0 10px 0;">Conference Attendance</h4>
+# 
+# <ul style="margin:0 0 20px;">
+#   <li>
+#     <a href="https://aistats.org/aistats2026/">
+#       <autocolor>International Conference on Artificial Intelligence and Statistics (AISTATS), 2026</autocolor>
+#     </a>
+#   </li>
+#   <li>
+#     <autocolor>Georgia Statistics Day, 2025</autocolor>
+#   </li>
+# </ul>
