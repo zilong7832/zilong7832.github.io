@@ -25,6 +25,7 @@ I am currently pursuing my Ph.D. in Statistics and Machine Learning in the Depar
 - **Bioinformatics / Computational Biology:** single-cell multi-omics integration, RNA–protein prediction, and molecular data analysis
 
 {% include_relative _includes/publications.md %}
+{% include_relative _includes/services.md %}
 
 ## Visitor
 
