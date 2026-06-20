@@ -78,8 +78,6 @@
 
   white-space: nowrap;
 
-  color: #666;
-
   font-size: 0.95em;
 
 }
