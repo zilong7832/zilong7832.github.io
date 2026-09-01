@@ -65,6 +65,14 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
   }
 
+html[data-theme="dark"] { --global-theme-color: rgb(36, 150, 203); }
+html[data-theme="dark"] .publications ol.bibliography li .links a.btn { color: #fff; border-color: #fff; }
+
+@media (prefers-color-scheme: dark) {
+html[data-theme="light"] { --global-theme-color: #002D72; }
+html[data-theme="light"] .publications ol.bibliography li .links a.btn { color: #000; border-color: #000; }
+}
+
 .publications ol.bibliography li .links a.btn:hover { color: var(--global-theme-color); border-color: var(--global-theme-color); }
 
 .publications ol.bibliography li .hidden { font-size: 0.875rem; max-height: 0px; overflow: hidden; text-align: justify; -webkit-transition: 0.15s ease; -moz-transition: 0.15s ease; -ms-transition: 0.15s ease; -o-transition: 0.15s ease; transition: all 0.15s ease; }

@@ -22,10 +22,3 @@ I am currently pursuing my Ph.D. in Statistics and Machine Learning in the Depar
 {% endfor %}
 
 {% include publications.md selected_only=true heading="Selected Publications" %}
-{% include_relative _includes/services.md %}
-
-## Visitors
-
-<div class="visitors-widget">
-  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=japM8wJf8INtZc2xKn-hZEqcSPP-7jDRFyzqKu9B2P0&cl=ffffff&w=a"></script>
-</div>

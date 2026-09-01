@@ -4,11 +4,18 @@
 
 .top-nav {
   display: flex;
-  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
   margin: 0 0 2.25rem;
   padding-bottom: 0.65rem;
   border-bottom: 1px solid #e5e5e5;
   white-space: nowrap;
+}
+
+.top-nav-links {
+  display: flex;
+  gap: 1.5rem;
 }
 
 .top-nav a {
@@ -19,6 +26,29 @@
 .top-nav a:hover,
 .top-nav a.active {
   color: #043361;
+}
+
+.theme-toggle {
+  flex: 0 0 auto;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin: -0.15rem 0 0;
+  padding: 0;
+  border: 1px solid #d8d8d8;
+  border-radius: 50%;
+  background: transparent;
+  color: #595959;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  color: #043361;
+  border-color: #043361;
+  outline: none;
 }
 
 .top-nav a.active {
@@ -63,6 +93,77 @@
   .top-nav a.active {
     border-bottom-color: #3eb7f0;
   }
+
+  .theme-toggle {
+    color: #dadbdf;
+    border-color: #666873;
+  }
+
+  .theme-toggle:hover,
+  .theme-toggle:focus-visible {
+    color: #3eb7f0;
+    border-color: #3eb7f0;
+  }
+}
+
+/* Explicit choices override the system preference; no attribute means auto. */
+html[data-theme="dark"] body { background-color: #20212b; color: #dadbdf; }
+html[data-theme="dark"] autocolor { color: #dadbdf; }
+html[data-theme="dark"] lightonly { visibility: hidden; }
+html[data-theme="dark"] darkonly { visibility: visible; }
+html[data-theme="dark"] papertitle,
+html[data-theme="dark"] strong { color: #eeeff0; }
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6,
+html[data-theme="dark"] a,
+html[data-theme="dark"] th,
+html[data-theme="dark"] dt { color: #3eb7f0; }
+html[data-theme="dark"] .social-icons a { color: #3eb7f0 !important; }
+html[data-theme="dark"] .social-icons a:hover { background-color: #20212b; }
+html[data-theme="dark"] .top-nav { border-bottom-color: #454650; }
+html[data-theme="dark"] .top-nav a { color: #dadbdf; }
+html[data-theme="dark"] .top-nav a:hover,
+html[data-theme="dark"] .top-nav a.active,
+html[data-theme="dark"] .theme-toggle:hover,
+html[data-theme="dark"] .theme-toggle:focus-visible { color: #3eb7f0; }
+html[data-theme="dark"] .top-nav a.active,
+html[data-theme="dark"] .theme-toggle:hover,
+html[data-theme="dark"] .theme-toggle:focus-visible { border-color: #3eb7f0; }
+html[data-theme="dark"] .theme-toggle { color: #dadbdf; border-color: #666873; }
+
+@media (prefers-color-scheme: dark) {
+  html[data-theme="light"] body { background-color: #fff; color: #727272; }
+  html[data-theme="light"] autocolor { color: #595959; }
+  html[data-theme="light"] lightonly { visibility: visible; }
+  html[data-theme="light"] darkonly { visibility: hidden; }
+  html[data-theme="light"] papertitle,
+  html[data-theme="light"] strong { color: #222; }
+  html[data-theme="light"] h1,
+  html[data-theme="light"] h2,
+  html[data-theme="light"] h3,
+  html[data-theme="light"] h4,
+  html[data-theme="light"] h5,
+  html[data-theme="light"] h6 { color: #043361; }
+  html[data-theme="light"] a,
+  html[data-theme="light"] th,
+  html[data-theme="light"] dt { color: #39c; }
+  html[data-theme="light"] .social-icons a { color: #043361 !important; }
+  html[data-theme="light"] .social-icons a:hover { background-color: #fff; }
+  html[data-theme="light"] .top-nav { border-bottom-color: #e5e5e5; }
+  html[data-theme="light"] .top-nav a,
+  html[data-theme="light"] .theme-toggle { color: #595959; }
+  html[data-theme="light"] .top-nav a:hover,
+  html[data-theme="light"] .top-nav a.active,
+  html[data-theme="light"] .theme-toggle:hover,
+  html[data-theme="light"] .theme-toggle:focus-visible { color: #043361; }
+  html[data-theme="light"] .top-nav a.active,
+  html[data-theme="light"] .theme-toggle:hover,
+  html[data-theme="light"] .theme-toggle:focus-visible { border-color: #043361; }
+  html[data-theme="light"] .theme-toggle { border-color: #d8d8d8; }
 }
 
 .social-icons a{
@@ -602,10 +703,13 @@ footer {
 @media print, screen and (max-width: 480px) {
 
   .top-nav {
-    gap: 1rem;
     margin-bottom: 1.5rem;
-    overflow-x: auto;
     padding-bottom: 0.5rem;
+  }
+
+  .top-nav-links {
+    gap: 1rem;
+    overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
 

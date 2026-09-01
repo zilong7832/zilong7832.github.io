@@ -49,7 +49,7 @@ menu:
     url: "/"
   - name: "Publications"
     url: "/publications/"
-  - name: "Research Radar"
+  - name: "Others"
     url: "/radar/"
   - name: "CV"
     url: "/cv/"
