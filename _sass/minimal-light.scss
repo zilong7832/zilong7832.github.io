@@ -2,6 +2,10 @@
   display: flex; 
   align-items: center;}
 
+body {
+  color: #444;
+}
+
 .top-nav {
   display: flex;
   gap: 1.5rem;
@@ -12,13 +16,13 @@
 }
 
 .top-nav a {
-  color: #595959;
+  color: #444;
   line-height: 1.5;
 }
 
 .top-nav a:hover,
 .top-nav a.active {
-  color: #043361;
+  color: #8a6500;
 }
 
 .theme-toggle {
@@ -33,7 +37,7 @@
   border: 1px solid #d8d8d8;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.92);
-  color: #043361;
+  color: #8a6500;
   cursor: pointer;
   font-size: 0.9rem;
   line-height: 2rem;
@@ -43,8 +47,8 @@
 
 .theme-toggle:hover,
 .theme-toggle:focus-visible {
-  color: #043361;
-  border-color: #043361;
+  color: #8a6500;
+  border-color: #8a6500;
   background-color: #fff;
   outline: none;
   transform: scale(1.2);
@@ -52,7 +56,7 @@
 
 .top-nav a.active {
   font-weight: 600;
-  border-bottom: 2px solid #043361;
+  border-bottom: 2px solid #8a6500;
 }
 
 .visitors-widget {
@@ -135,9 +139,9 @@ html[data-theme="dark"] .theme-toggle:hover,
 html[data-theme="dark"] .theme-toggle:focus-visible { border-color: #3eb7f0; background-color: #20212b; }
 
 @media (prefers-color-scheme: dark) {
-  html[data-theme="light"] body { background-color: #fff; color: #727272; }
+  html[data-theme="light"] body { background-color: #fff; color: #444; }
   html[data-theme="light"] { color-scheme: light; }
-  html[data-theme="light"] autocolor { color: #595959; }
+  html[data-theme="light"] autocolor { color: #444; }
   html[data-theme="light"] lightonly { visibility: visible; }
   html[data-theme="light"] darkonly { visibility: hidden; }
   html[data-theme="light"] papertitle,
@@ -147,22 +151,22 @@ html[data-theme="dark"] .theme-toggle:focus-visible { border-color: #3eb7f0; bac
   html[data-theme="light"] h3,
   html[data-theme="light"] h4,
   html[data-theme="light"] h5,
-  html[data-theme="light"] h6 { color: #043361; }
+  html[data-theme="light"] h6 { color: #8a6500; }
   html[data-theme="light"] a,
   html[data-theme="light"] th,
-  html[data-theme="light"] dt { color: #39c; }
-  html[data-theme="light"] .social-icons a { color: #043361 !important; }
+  html[data-theme="light"] dt { color: #9a7100; }
+  html[data-theme="light"] .social-icons a { color: #8a6500 !important; }
   html[data-theme="light"] .social-icons a:hover { background-color: #fff; }
   html[data-theme="light"] .top-nav { border-bottom-color: #e5e5e5; }
-  html[data-theme="light"] .top-nav a { color: #595959; }
-  html[data-theme="light"] .theme-toggle { color: #043361; }
+  html[data-theme="light"] .top-nav a { color: #444; }
+  html[data-theme="light"] .theme-toggle { color: #8a6500; }
   html[data-theme="light"] .top-nav a:hover,
   html[data-theme="light"] .top-nav a.active,
   html[data-theme="light"] .theme-toggle:hover,
-  html[data-theme="light"] .theme-toggle:focus-visible { color: #043361; }
-  html[data-theme="light"] .top-nav a.active { border-color: #043361; }
+  html[data-theme="light"] .theme-toggle:focus-visible { color: #8a6500; }
+  html[data-theme="light"] .top-nav a.active { border-color: #8a6500; }
   html[data-theme="light"] .theme-toggle:hover,
-  html[data-theme="light"] .theme-toggle:focus-visible { border-color: #043361; background-color: #fff; }
+  html[data-theme="light"] .theme-toggle:focus-visible { border-color: #8a6500; background-color: #fff; }
 }
 
 .social-icons a{
@@ -170,7 +174,7 @@ html[data-theme="dark"] .theme-toggle:focus-visible { border-color: #3eb7f0; bac
   height:2.4rem;
   width:2.4rem;
   background-color:transparent;
-  color:#043361!important;
+  color:#8a6500!important;
   border-radius:100%;
   text-align:center;
   font-size:1.15rem;
@@ -301,7 +305,7 @@ email {
 .icon-button:hover .icon-twitter,.icon-button:hover .icon-facebook,.icon-button:hover .icon-github,.icon-button:hover .icon-linkedin{color:white}
 
 autocolor{
-  color:#595959;
+  color:#444;
 }
 
 lightonly {
@@ -393,18 +397,18 @@ papertitle {
 
 h3, h4, h5, h6 {
   font-weight: 600;
-  color:#043361;
+  color:#8a6500;
   margin:0 0 20px;
 }
 
 h1 {
   font-weight: 500;
-  color:#043361;
+  color:#8a6500;
   margin:0 0 20px;
 }
 
 h2 {
-  color:#043361;
+  color:#8a6500;
   font-weight: 500;
   margin:2px 0px 15px;
   font-size: 157%;
@@ -433,12 +437,12 @@ h1 {
 }
 
 a {
-  color:#39c;
+  color:#9a7100;
   text-decoration:none;
 }
 
 a:hover {
-  color:#069;
+  color:#6f5000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -449,13 +453,13 @@ a:hover {
 
 a small {
   font-size:11px;
-  color:#777;
+  color:#555;
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:#777;
+  color:#555;
 }
 
 .wrapper {
