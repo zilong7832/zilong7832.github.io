@@ -14,37 +14,18 @@ I am currently pursuing my Ph.D. in Statistics and Machine Learning in the Depar
 - **Functional Data Analysis (FDA):** time series, functional principal component analysis, bandwidth selection
 - **Bioinformatics / Computational Biology:** single-cell multi-omics integration, RNA–protein prediction, and molecular data analysis
 
-{% include_relative _includes/publications.md %}
+## News
+
+{% assign selected_publications = site.data.publications.main | where: "selected", true %}
+{% for publication in selected_publications %}
+- **{{ publication.conference_short }}:** [{{ publication.title }}]({{ publication.page | default: publication.pdf }}) — {{ publication.conference }}.
+{% endfor %}
+
+{% include publications.md selected_only=true heading="Selected Publications" %}
 {% include_relative _includes/services.md %}
 
-## Recent Research Radar
+## Visitors
 
-<p style="margin-bottom: 12px;">
-  Recent papers related to my research interests, automatically updated.
-</p>
-
-<script
-  type="module"
-  src="https://zilong7832.github.io/zilong7832-dawnlit/widget/paper-radar-widget.js">
-</script>
-
-<paper-radar-widget
-  feed="https://zilong7832.github.io/zilong7832-dawnlit/data/papers.json"
-  limit="3"
-  theme="auto"
-  density="compact">
-</paper-radar-widget>
-
-<p style="margin-top: 12px;">
-  <a href="https://zilong7832.github.io/zilong7832-dawnlit/"
-     target="_blank"
-     style="font-weight:600; text-decoration:none;">
-    View full Research Radar →
-  </a>
-</p>
-
-## Visitor
-
-<div style="width:600px; height:auto; transform:scale(0.8); transform-origin: top left;">
+<div class="visitors-widget">
   <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=japM8wJf8INtZc2xKn-hZEqcSPP-7jDRFyzqKu9B2P0&cl=ffffff&w=a"></script>
 </div>
