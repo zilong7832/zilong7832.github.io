@@ -4,18 +4,11 @@
 
 .top-nav {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 1rem;
+  gap: 1.5rem;
   margin: 0 0 2.25rem;
   padding-bottom: 0.65rem;
   border-bottom: 1px solid #e5e5e5;
   white-space: nowrap;
-}
-
-.top-nav-links {
-  display: flex;
-  gap: 1.5rem;
 }
 
 .top-nav a {
@@ -29,26 +22,32 @@
 }
 
 .theme-toggle {
-  flex: 0 0 auto;
-  width: 1.75rem;
-  height: 1.75rem;
-  margin: -0.15rem 0 0;
+  position: fixed;
+  top: 1.25rem;
+  right: 1.25rem;
+  z-index: 100;
+  width: 2rem;
+  height: 2rem;
+  margin: 0;
   padding: 0;
   border: 1px solid #d8d8d8;
   border-radius: 50%;
-  background: transparent;
-  color: #595959;
+  background: rgba(255, 255, 255, 0.92);
+  color: #043361;
   cursor: pointer;
-  font: inherit;
-  font-size: 0.95rem;
-  line-height: 1;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .theme-toggle:hover,
 .theme-toggle:focus-visible {
   color: #043361;
   border-color: #043361;
+  background-color: #fff;
   outline: none;
+  transform: scale(1.2);
 }
 
 .top-nav a.active {
@@ -95,19 +94,21 @@
   }
 
   .theme-toggle {
-    color: #dadbdf;
-    border-color: #666873;
+    color: #3eb7f0;
+    border-color: #555762;
+    background: rgba(32, 33, 43, 0.92);
   }
 
   .theme-toggle:hover,
   .theme-toggle:focus-visible {
     color: #3eb7f0;
-    border-color: #3eb7f0;
+    background-color: #20212b;
   }
 }
 
 /* Explicit choices override the system preference; no attribute means auto. */
 html[data-theme="dark"] body { background-color: #20212b; color: #dadbdf; }
+html[data-theme="dark"] { color-scheme: dark; }
 html[data-theme="dark"] autocolor { color: #dadbdf; }
 html[data-theme="dark"] lightonly { visibility: hidden; }
 html[data-theme="dark"] darkonly { visibility: visible; }
@@ -128,15 +129,14 @@ html[data-theme="dark"] .top-nav { border-bottom-color: #454650; }
 html[data-theme="dark"] .top-nav a { color: #dadbdf; }
 html[data-theme="dark"] .top-nav a:hover,
 html[data-theme="dark"] .top-nav a.active,
+html[data-theme="dark"] .theme-toggle { color: #3eb7f0; }
+html[data-theme="dark"] .top-nav a.active { border-color: #3eb7f0; }
 html[data-theme="dark"] .theme-toggle:hover,
-html[data-theme="dark"] .theme-toggle:focus-visible { color: #3eb7f0; }
-html[data-theme="dark"] .top-nav a.active,
-html[data-theme="dark"] .theme-toggle:hover,
-html[data-theme="dark"] .theme-toggle:focus-visible { border-color: #3eb7f0; }
-html[data-theme="dark"] .theme-toggle { color: #dadbdf; border-color: #666873; }
+html[data-theme="dark"] .theme-toggle:focus-visible { border-color: #3eb7f0; background-color: #20212b; }
 
 @media (prefers-color-scheme: dark) {
   html[data-theme="light"] body { background-color: #fff; color: #727272; }
+  html[data-theme="light"] { color-scheme: light; }
   html[data-theme="light"] autocolor { color: #595959; }
   html[data-theme="light"] lightonly { visibility: visible; }
   html[data-theme="light"] darkonly { visibility: hidden; }
@@ -154,16 +154,15 @@ html[data-theme="dark"] .theme-toggle { color: #dadbdf; border-color: #666873; }
   html[data-theme="light"] .social-icons a { color: #043361 !important; }
   html[data-theme="light"] .social-icons a:hover { background-color: #fff; }
   html[data-theme="light"] .top-nav { border-bottom-color: #e5e5e5; }
-  html[data-theme="light"] .top-nav a,
-  html[data-theme="light"] .theme-toggle { color: #595959; }
+  html[data-theme="light"] .top-nav a { color: #595959; }
+  html[data-theme="light"] .theme-toggle { color: #043361; }
   html[data-theme="light"] .top-nav a:hover,
   html[data-theme="light"] .top-nav a.active,
   html[data-theme="light"] .theme-toggle:hover,
   html[data-theme="light"] .theme-toggle:focus-visible { color: #043361; }
-  html[data-theme="light"] .top-nav a.active,
+  html[data-theme="light"] .top-nav a.active { border-color: #043361; }
   html[data-theme="light"] .theme-toggle:hover,
-  html[data-theme="light"] .theme-toggle:focus-visible { border-color: #043361; }
-  html[data-theme="light"] .theme-toggle { border-color: #d8d8d8; }
+  html[data-theme="light"] .theme-toggle:focus-visible { border-color: #043361; background-color: #fff; }
 }
 
 .social-icons a{
@@ -703,13 +702,10 @@ footer {
 @media print, screen and (max-width: 480px) {
 
   .top-nav {
-    margin-bottom: 1.5rem;
-    padding-bottom: 0.5rem;
-  }
-
-  .top-nav-links {
     gap: 1rem;
+    margin-bottom: 1.5rem;
     overflow-x: auto;
+    padding-bottom: 0.5rem;
     -webkit-overflow-scrolling: touch;
   }
 

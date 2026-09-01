@@ -1,8 +1,9 @@
 ---
 layout: homepage
+title: Zilong Zhang
 ---
 
-## About Me
+## Zilong Zhang
 
 I am currently pursuing my Ph.D. in Statistics and Machine Learning in the Department of Mathematics and Statistics at Georgia State University,  where I am fortunate to be advised by <a href="https://chikuang.github.io/" style="color:#0099cc; font-weight:bold;">Dr. Chi-Kuang Yeh</a>.  
 

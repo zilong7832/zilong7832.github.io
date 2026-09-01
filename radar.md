@@ -4,6 +4,8 @@ title: Others
 permalink: /radar/
 ---
 
+{% include services.md %}
+
 ## Research Radar
 
 Recent papers related to topics I am currently following.
@@ -27,8 +29,6 @@ Recent papers related to topics I am currently following.
     </a>
   </p>
 </div>
-
-{% include services.md %}
 
 ## Visitors
 

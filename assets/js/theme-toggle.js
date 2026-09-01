@@ -1,12 +1,11 @@
 ;(function () {
   var storageKey = 'site-theme'
-  var themes = ['auto', 'light', 'dark']
-  var icons = { auto: '◐', light: '☀', dark: '☾' }
+  var mediaQuery = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)')
 
   function savedTheme() {
     try {
       var value = localStorage.getItem(storageKey)
-      return themes.indexOf(value) !== -1 ? value : 'auto'
+      return value === 'light' || value === 'dark' ? value : 'auto'
     } catch (error) {
       return 'auto'
     }
@@ -19,34 +18,51 @@
       document.documentElement.setAttribute('data-theme', theme)
     }
 
-    document.querySelectorAll('paper-radar-widget').forEach(function (widget) {
-      widget.setAttribute('theme', theme)
-    })
+    var widgets = document.querySelectorAll('paper-radar-widget')
+    for (var i = 0; i < widgets.length; i += 1) {
+      widgets[i].setAttribute('theme', theme)
+    }
 
     var button = document.querySelector('.theme-toggle')
     if (button) {
-      var label = 'Theme: ' + (theme === 'auto' ? 'automatic' : theme)
+      var effectiveTheme = theme === 'auto'
+        ? (mediaQuery && mediaQuery.matches ? 'dark' : 'light')
+        : theme
+      var label = 'Current theme: ' + effectiveTheme + '. Click to switch to ' + (effectiveTheme === 'dark' ? 'light' : 'dark') + '.'
       button.setAttribute('aria-label', label)
-      button.setAttribute('title', label + ' (click to change)')
-      button.querySelector('span').textContent = icons[theme]
+      button.setAttribute('title', label)
+      var icon = button.querySelector('i')
+      if (icon) icon.className = effectiveTheme === 'dark' ? 'fas fa-sun' : 'fas fa-moon'
     }
   }
 
   var currentTheme = savedTheme()
-  applyTheme(currentTheme)
 
-  document.addEventListener('DOMContentLoaded', function () {
+  function initializeThemeToggle() {
     applyTheme(currentTheme)
     var button = document.querySelector('.theme-toggle')
     if (!button) return
 
     button.addEventListener('click', function () {
-      currentTheme = themes[(themes.indexOf(currentTheme) + 1) % themes.length]
+      var currentlyDark = currentTheme === 'dark' ||
+        (currentTheme === 'auto' && mediaQuery && mediaQuery.matches)
+      currentTheme = currentlyDark ? 'light' : 'dark'
       try {
-        if (currentTheme === 'auto') localStorage.removeItem(storageKey)
-        else localStorage.setItem(storageKey, currentTheme)
+        localStorage.setItem(storageKey, currentTheme)
       } catch (error) {}
       applyTheme(currentTheme)
     })
-  })
+
+    if (mediaQuery && mediaQuery.addEventListener) {
+      mediaQuery.addEventListener('change', function () {
+        if (currentTheme === 'auto') applyTheme(currentTheme)
+      })
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeThemeToggle)
+  } else {
+    initializeThemeToggle()
+  }
 })()
