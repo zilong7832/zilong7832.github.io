@@ -17,6 +17,32 @@ I am currently pursuing my Ph.D. in Statistics and Machine Learning in the Depar
 {% include_relative _includes/publications.md %}
 {% include_relative _includes/services.md %}
 
+## Recent Research Radar
+
+<p style="margin-bottom: 12px;">
+  Recent papers related to my research interests, automatically updated.
+</p>
+
+<script
+  type="module"
+  src="https://zilong7832.github.io/zilong7832-dawnlit/widget/paper-radar-widget.js">
+</script>
+
+<paper-radar-widget
+  feed="https://zilong7832.github.io/zilong7832-dawnlit/data/papers.json"
+  limit="3"
+  theme="auto"
+  density="compact">
+</paper-radar-widget>
+
+<p style="margin-top: 12px;">
+  <a href="https://zilong7832.github.io/zilong7832-dawnlit/"
+     target="_blank"
+     style="font-weight:600; text-decoration:none;">
+    View full Research Radar →
+  </a>
+</p>
+
 ## Visitor
 
 <div style="width:600px; height:auto; transform:scale(0.8); transform-origin: top left;">
