@@ -36,14 +36,14 @@ An interactive map of places I have explored.
 
 <div class="travel-footprints">
   <iframe
-    src="https://via-kappa-two.vercel.app/?embed=1"
+    src="https://zilong-via.vercel.app/?embed=1"
     title="Zilong's Travel Footprints"
     loading="lazy"
     allowfullscreen>
   </iframe>
 
   <p class="footprints-full-link">
-    <a href="https://via-kappa-two.vercel.app/?public=1" target="_blank" rel="noopener">
+    <a href="https://zilong-via.vercel.app/?public=1" target="_blank" rel="noopener">
       Open full Travel Footprints ↗
     </a>
   </p>
