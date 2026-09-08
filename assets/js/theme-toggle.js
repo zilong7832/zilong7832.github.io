@@ -12,6 +12,10 @@
   }
 
   function applyTheme(theme) {
+    var effectiveTheme = theme === 'auto'
+      ? (mediaQuery && mediaQuery.matches ? 'dark' : 'light')
+      : theme
+
     if (theme === 'auto') {
       document.documentElement.removeAttribute('data-theme')
     } else {
@@ -23,11 +27,18 @@
       widgets[i].setAttribute('theme', theme)
     }
 
+    var footprintFrames = document.querySelectorAll('.travel-footprints iframe')
+    for (var j = 0; j < footprintFrames.length; j += 1) {
+      if (footprintFrames[j].contentWindow) {
+        footprintFrames[j].contentWindow.postMessage(
+          { type: 'via-theme', theme: effectiveTheme },
+          'https://zilong-via.vercel.app'
+        )
+      }
+    }
+
     var button = document.querySelector('.theme-toggle')
     if (button) {
-      var effectiveTheme = theme === 'auto'
-        ? (mediaQuery && mediaQuery.matches ? 'dark' : 'light')
-        : theme
       var label = 'Current theme: ' + effectiveTheme + '. Click to switch to ' + (effectiveTheme === 'dark' ? 'light' : 'dark') + '.'
       button.setAttribute('aria-label', label)
       button.setAttribute('title', label)
@@ -40,6 +51,12 @@
 
   function initializeThemeToggle() {
     applyTheme(currentTheme)
+    var footprintFrames = document.querySelectorAll('.travel-footprints iframe')
+    for (var i = 0; i < footprintFrames.length; i += 1) {
+      footprintFrames[i].addEventListener('load', function () {
+        applyTheme(currentTheme)
+      })
+    }
     var button = document.querySelector('.theme-toggle')
     if (!button) return
 
