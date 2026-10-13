@@ -11,12 +11,15 @@ I am currently pursuing my Ph.D. in Statistics and Machine Learning in the Depar
 
 ## Research Interests
 
-- **Statistical Machine Learning:** graph neural networks, transfer learning, and statistical theory of deep learning  
-- **Functional Data Analysis (FDA):** time series, functional principal component analysis, bandwidth selection
-- **Bioinformatics / Computational Biology:** single-cell multi-omics integration, RNA–protein prediction, and molecular data analysis
+My research develops statistical methods for reliable, uncertainty-aware inference, with functional data analysis at its core and a growing focus on the trustworthy evaluation of large language models.
+
+- **Functional Data Analysis (FDA):** functional time series, long-run covariance estimation, data-driven bandwidth selection, and functional principal component analysis
+- **Trustworthy LLM Evaluation:** auditing LLM-as-a-judge, positive–unlabeled learning for evaluation, and uncertainty quantification for AI evaluators
+- **Statistical Machine Learning:** uncertainty quantification, statistical theory of deep learning, and graph neural networks with applications to biological and single-cell data
 
 ## News
 
+- **Oct 2026:** Presented a poster on [Quantifying and Auditing LLM Evaluation via Positive–Unlabeled Learning](https://arxiv.org/abs/2606.19057) at [Georgia Statistics Day 2026](https://sites.gatech.edu/gsd2026/), Georgia Tech, Atlanta.
 {% assign selected_publications = site.data.publications.main | where: "selected", true %}
 {% for publication in selected_publications %}
 - **{{ publication.conference_short }}:** [{{ publication.title }}]({{ publication.page | default: publication.pdf }}) — {{ publication.conference }}.

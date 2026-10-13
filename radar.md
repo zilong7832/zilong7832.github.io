@@ -6,6 +6,19 @@ permalink: /radar/
 
 {% include services.md %}
 
+<h2 id="presentations" style="margin: 2px 0px 0px;">Presentations</h2>
+
+<h4 style="margin:0 10px 0;">Posters</h4>
+
+<ul style="margin:0 0 5px;">
+  <li>
+    <a href="https://arxiv.org/abs/2606.19057">
+      <autocolor>Quantifying and Auditing LLM Evaluation via Positive–Unlabeled Learning</autocolor>
+    </a>
+    — <a href="https://sites.gatech.edu/gsd2026/">Georgia Statistics Day 2026</a>, Georgia Tech, Atlanta, GA, Oct. 2026
+  </li>
+</ul>
+
 ## Research Radar
 
 Recent papers related to topics I am currently following.
