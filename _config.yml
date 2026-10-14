@@ -50,7 +50,7 @@ menu:
     url: "/"
   - name: "Publications"
     url: "/publications/"
-  - name: "More"
+  - name: "Others"
     url: "/radar/"
   - name: "CV"
     url: "/cv/"
