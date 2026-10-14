@@ -4,13 +4,12 @@
 
 <ul>
   <li>
-    <a href="https://neurips.cc/Conferences/2026">
-      <autocolor>Conference on Neural Information Processing Systems (NeurIPS), 2026</autocolor>
-    </a>
+    <a class="reviewer-link" href="https://neurips.cc/Conferences/2026">NeurIPS 2026</a>
   </li>
   <li>
-    <a href="https://icml.cc/Conferences/2026">
-      <autocolor>International Conference on Machine Learning (ICML), 2026</autocolor>
-    </a>
+    <a class="reviewer-link" href="https://icml.cc/Conferences/2026">ICML 2026</a>
+  </li>
+  <li>
+    <a class="reviewer-link" href="https://iclr.cc/Conferences/2026">ICLR 2026</a>
   </li>
 </ul>

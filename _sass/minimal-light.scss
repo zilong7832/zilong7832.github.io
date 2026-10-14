@@ -105,7 +105,23 @@ body {
   border: 0;
 }
 
+.reviewer-link {
+  color: #1769aa;
+}
+
+.reviewer-link:hover {
+  color: #0b4a7a;
+}
+
 @media (prefers-color-scheme: dark) {
+  .reviewer-link {
+    color: #69bfff;
+  }
+
+  .reviewer-link:hover {
+    color: #9bd4ff;
+  }
+
   .top-nav {
     border-bottom-color: #454650;
   }
@@ -161,6 +177,8 @@ html[data-theme="dark"] .top-nav a:hover,
 html[data-theme="dark"] .top-nav a.active,
 html[data-theme="dark"] .theme-toggle { color: #3eb7f0; }
 html[data-theme="dark"] .top-nav a.active { border-color: #3eb7f0; }
+html[data-theme="dark"] .reviewer-link { color: #69bfff; }
+html[data-theme="dark"] .reviewer-link:hover { color: #9bd4ff; }
 html[data-theme="dark"] .theme-toggle:hover,
 html[data-theme="dark"] .theme-toggle:focus-visible { border-color: #3eb7f0; background-color: #20212b; }
 
