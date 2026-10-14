@@ -1,0 +1,279 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\usepackage{iftex}
+\ifPDFTeX\input{glyphtounicode}\pdfgentounicode=1\fi
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\ifPDFTeX\pdfgentounicode=1\fi
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{1.001\textwidth}{@{}p{0.7\textwidth}@{\extracolsep{\fill}}r@{}}
+    {\small\raggedright #1} & \textbf{\small #2}\\
+  \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Zilong Zhang} \\ \vspace{2pt}
+    Ph.D. Student in Statistics and Machine Learning, Georgia State University \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +1 313-797-7168 ~ \href{mailto:zzhang52@gsu.edu}{\raisebox{-0.2\height}\faEnvelope\  \underline{zzhang52@gsu.edu}} ~
+    \href{https://scholar.google.com/citations?user=f4NVbcUAAAAJ&hl=en}
+    {\raisebox{-0.2\height}\faGraduationCap\ \underline{Google Scholar}}
+    \href{https://www.linkedin.com/in/zilong-zhang-b983b62b1/}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}}  ~
+    \href{https://github.com/zilong7832}{\raisebox{-0.2\height}\faGithub\ \underline{GitHub}} ~
+    \href{https://zilong7832.github.io/}
+    {\raisebox{-0.2\height}\faGlobe\ \underline{Website}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+  {Ph.D. in Machine Learning \& Data Science}{Aug. 2025 -- Present}
+  {%
+    \begin{tabular}[t]{@{}l@{}}
+      Department of Mathematics \& Statistics / Georgia State University
+    \end{tabular}%
+  }
+  {Atlanta, GA}
+    \resumeSubheading
+  {M.S. in Statistics}{Aug. 2023 -- May 2025}
+  {%
+    \begin{tabular}[t]{@{}l@{}}
+      Department of Statistics \& Probability / Michigan State University
+    \end{tabular}%
+  }
+  {East Lansing, MI}
+
+    \resumeSubheading
+        {Bachelor of Financial Mathematics}{Sep. 2019 -- Jul. 2023}
+        {School of Statistics / University of International Business and Economics}{Beijing, China}
+  \resumeSubHeadingListEnd
+\vspace{-5pt}
+
+%-----------RESEARCH INTERESTS-----------
+\section{PROFILE}
+\resumeItemListStart
+  \resumeItem{Statistics Ph.D. researcher trained in financial mathematics, statistical modeling, and high-dimensional methods.}
+  \resumeItem{Research interests include functional data analysis (FDA), dependence in functional time series, long-run covariance estimation, and quantitative modeling.}
+\resumeItemListEnd
+\vspace{-10pt}
+
+%------PUBLICATIONS-------
+\section{PUBLICATIONS \& MANUSCRIPTS}
+\resumeItemListStart
+    \resumeItem{
+        \textbf{Zilong Zhang}, Yi-Ting Hung, Weiyi He, Junxi Zhang, Lei Ding, Chi-Kuang Yeh.
+        \href{https://arxiv.org/abs/2606.19714}
+        {``AURA: Adaptive Uncertainty-aware Refinement for LLM-as-a-Judge Auditing''}
+        \textit{Under review, arXiv:2606.19714}, 2026.
+    }
+
+    \resumeItem{
+        \textbf{Zilong Zhang}, Yi-Ting Hung, Lei Ding, Chi-Kuang Yeh.
+    \href{https://arxiv.org/abs/2606.19057}
+        {``Quantifying and Auditing LLM Evaluation via Positive--Unlabeled Learning''}
+        \textit{Under review, arXiv:2606.19057}, \textbf{2026}.
+    }
+\resumeItemListEnd
+\vspace{-10pt}
+
+%-----------PROJECTS-----------
+\section{RESEARCH AND OTHER PROJECTS}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+        {\textbf{Functional Data Analysis for Long-Run Dependence}}
+        {Sept. 2025 -- Present}
+        \resumeItemListStart
+        \resumeItem{
+            Research on bandwidth selection for functional time series and long-run covariance estimation.
+        }
+        \resumeItemListEnd
+        \vspace{-5pt}
+      \resumeProjectHeading
+          {\textbf{Genome-Wide Association Analysis of Treatment-Resistant Hypertension}}
+          {Sept. 2024 -- Dec. 2024}
+          \resumeItemListStart
+            \resumeItem{Analyzed high-dimensional genetic data from CKD and ARTH patient cohorts in an exploratory genome-wide association study of treatment-resistant hypertension.}
+          \resumeItemListEnd
+
+          %------
+
+
+    \resumeSubHeadingListEnd
+\vspace{-8pt}
+
+%-----------EXPERIENCE-----------
+\section{WORK EXPERIENCE}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {China Securities Co., Ltd.}{Jul. 2021 -- Nov. 2021}
+      {Investment Management Intern}{Beijing, China}
+      \resumeItemListStart
+        \resumeItem{Supported listing work for two client companies; prepared industry surveys, risk assessments, listing materials, and internal review reports, and helped plan fundraising activities.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Chuzhou Longyun Financial Consulting Co. Ltd.}{Mar. 2021 -- Jun. 2021}
+      {General Manager Assistant}{Chuzhou, China}
+      \resumeItemListStart
+        \resumeItem{Provided recurring financial-audit and accounting support; assisted with corporate due diligence and client-review documentation.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Bank of Communications Chuzhou Branch}{Dec. 2020 -- Feb. 2021}
+      {Account Manager Intern}{Chuzhou, China}
+      \resumeItemListStart
+        \resumeItem{Supported accounting-risk monitoring, maintained credit databases, and prepared creditworthiness assessments and analysis reports.}
+    \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {City University of HongKong, Shenzhen Research Institute}{June. 2023 -- Sep. 2023}
+    %   {Research Summer Intern}{Shenzhen, China}
+    %   \resumeItemListStart
+    %     \resumeItem{Studied chain graphs and Bayesian networks; explored the basis of causal inference.}
+    %     \resumeItem{Proposed Binary Thresholds Model for data generation and developed a learning algorithm for Binary chain graph model recovery.}
+    % \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-8pt}
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Programming and data:} Python, R, C; NumPy, pandas, scikit-learn \\
+    \textbf{Statistical methods:} FDA, functional time series, covariance estimation, high-dimensional screening \\
+    \textbf{Tools:} Git, Linux, Jupyter, VS Code
+  }}
+\end{itemize}
+
+
+%-----------INVOLVEMENT---------------
+% \section{Leadership / Extracurricular}
+%     \resumeSubHeadingListStart
+%         \resumeSubheading{Fraternity}{Spring 2020 -- Present}{President}{University Name}
+%             \resumeItemListStart
+%                 \resumeItem{Achieved a 4 star fraternity ranking by the Office of Fraternity and Sorority Affairs (highest possible ranking).}
+%                 \resumeItem{Managed executive board of 5 members and ran weekly meetings to oversee progress in essential parts of the chapter.}
+%                 \resumeItem{Led chapter of 30+ members to work towards goals that improve and promote community service, academics, and unity.}
+%             \resumeItemListEnd
+
+%     \resumeSubHeadingListEnd
+
+
+\end{document}

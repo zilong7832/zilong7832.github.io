@@ -2,12 +2,13 @@
 title: Zilong Zhang
 position: Ph.D. Student
 affiliation: Georgia State University
+affiliation_link: https://www.gsu.edu/
 email: zzhang52[at]gsu[dot]edu
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: Functional Data Analysis, LLM Evaluation, Uncertainty Quantification, Statistical Machine Learning
-description: Ph.D. student in Statistics and Machine Learning, Department of Mathematics and Statistics
+keywords: Statistics, Machine Learning, Trustworthy AI, LLM Evaluation, Functional Data Analysis, Quantitative Research
+description: Zilong Zhang is a Ph.D. student in Statistics and Machine Learning at Georgia State University. Research in trustworthy AI, LLM evaluation, functional time series, and statistical learning.
 canonical: https://zilong7832.github.io/
 
 # Links 
@@ -22,7 +23,7 @@ linkedin: https://www.linkedin.com/in/zilong-zhang-b983b62b1/
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
 avatar: ./assets/img/avatar.png
 favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon.png
+favicon_dark: ./assets/img/favicon-dark.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
@@ -49,7 +50,7 @@ menu:
     url: "/"
   - name: "Publications"
     url: "/publications/"
-  - name: "Others"
+  - name: "More"
     url: "/radar/"
   - name: "CV"
     url: "/cv/"
@@ -66,3 +67,5 @@ exclude:
   - LICENSE
   - minimal-light.gemspec
   - html_source_file/
+  - cv_sources/
+  - job_resumes/
