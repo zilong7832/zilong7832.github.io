@@ -12,9 +12,7 @@ permalink: /radar/
 
 <ul>
   <li>
-    <a href="https://arxiv.org/abs/2606.19057">
-      <autocolor>Quantifying and Auditing LLM Evaluation via Positive–Unlabeled Learning</autocolor>
-    </a>
+    Quantifying and Auditing LLM Evaluation via Positive–Unlabeled Learning
     — <a href="https://sites.gatech.edu/gsd2026/">Georgia Statistics Day 2026</a>, Georgia Tech, Atlanta, GA, Oct. 2026
   </li>
 </ul>

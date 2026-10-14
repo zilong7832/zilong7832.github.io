@@ -4,12 +4,12 @@
 
 <ul>
   <li>
-    <a class="reviewer-link" href="https://neurips.cc/Conferences/2026">Conference on Neural Information Processing Systems (NeurIPS), 2026</a>
+    Conference on Neural Information Processing Systems (<a class="reviewer-link" href="https://neurips.cc/Conferences/2026">NeurIPS</a>), 2026
   </li>
   <li>
-    <a class="reviewer-link" href="https://icml.cc/Conferences/2026">International Conference on Machine Learning (ICML), 2026</a>
+    International Conference on Machine Learning (<a class="reviewer-link" href="https://icml.cc/Conferences/2026">ICML</a>), 2026
   </li>
   <li>
-    <a class="reviewer-link" href="https://iclr.cc/Conferences/2026">International Conference on Learning Representations (ICLR), 2026</a>
+    International Conference on Learning Representations (<a class="reviewer-link" href="https://iclr.cc/Conferences/2026">ICLR</a>), 2026
   </li>
 </ul>

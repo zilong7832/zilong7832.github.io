@@ -17,7 +17,7 @@ My research develops statistical methods for reliable, uncertainty-aware inferen
 
 ## News
 
-- **Oct 2026:** Presented a poster on [Quantifying and Auditing LLM Evaluation via Positive–Unlabeled Learning](https://arxiv.org/abs/2606.19057) at [Georgia Statistics Day 2026](https://sites.gatech.edu/gsd2026/), Georgia Tech, Atlanta.
+- **Oct 2026:** Presented the poster *Quantifying and Auditing LLM Evaluation via Positive–Unlabeled Learning* at [Georgia Statistics Day 2026](https://sites.gatech.edu/gsd2026/), Georgia Tech, Atlanta.
 {% assign selected_publications = site.data.publications.main | where: "selected", true %}
 {% for publication in selected_publications %}
 - **{{ publication.conference_short }}:** [{{ publication.title }}]({{ publication.page | default: publication.pdf }}) — {{ publication.conference }}.
