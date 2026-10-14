@@ -119,37 +119,51 @@ body {
 
 .school-logos {
   display: flex;
-  align-items: center;
-  gap: 12px;
-  margin: -0.25rem 0 0.25rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  margin: 0.5rem 0 0.75rem;
 }
 
 .school-logo {
   display: inline-flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 38px;
+  min-height: 58px;
+  max-width: 210px;
+  text-decoration: none;
 }
 
 .school-logo img {
   display: block;
   width: auto;
   height: auto;
-  max-height: 34px;
-  max-width: 72px;
+  max-height: 58px;
+  max-width: 200px;
   object-fit: contain;
 }
 
 .school-logo-gsu img {
-  max-width: 38px;
+  max-width: 200px;
 }
 
 .school-logo-msu img {
-  max-width: 68px;
+  max-width: 190px;
+  max-height: 42px;
+}
+
+.school-logo-label {
+  margin-top: 3px;
+  color: #18453b;
+  font-size: 0.62rem;
+  font-weight: 600;
+  line-height: 1.15;
+  text-align: center;
 }
 
 .school-logo-uibe img {
-  max-width: 38px;
+  max-width: 200px;
 }
 
 @media (prefers-color-scheme: dark) {

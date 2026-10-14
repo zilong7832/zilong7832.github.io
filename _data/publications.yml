@@ -9,7 +9,6 @@ main:
     page: "https://arxiv.org/abs/2606.19714"
     bibtex:
     image: ./assets/img/aura.png
-    notes: "First Author"
 
   - title: "Quantifying and Auditing LLM Evaluation via Positive--Unlabeled Learning"
     selected: true
@@ -21,7 +20,6 @@ main:
     page: "https://arxiv.org/abs/2606.19057"
     bibtex:
     image: ./assets/img/puaudit.png
-    notes: "First Author"
 
   - title: "R-Mixup: Riemannian Mixup for Biological Networks"
     authors: "Xuan Kan, Zimu Li, Hejie Cui, Yue Yu, Ran Xu, Shaojun Yu, Zilong Zhang, Ying Guo, Carl Yang"
