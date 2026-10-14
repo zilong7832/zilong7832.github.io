@@ -155,17 +155,8 @@ body {
 }
 
 .school-logo-msu img {
-  max-width: 190px;
-  max-height: 42px;
-}
-
-.school-logo-label {
-  margin-top: 3px;
-  color: #18453b;
-  font-size: 0.62rem;
-  font-weight: 600;
-  line-height: 1.15;
-  text-align: center;
+  max-width: 220px;
+  max-height: 50px;
 }
 
 .school-logo-uibe img {
@@ -187,10 +178,6 @@ body {
 
   .school-link:hover {
     color: #9bd4ff;
-  }
-
-  .school-logo-label {
-    color: #a2c9b9;
   }
 
   .top-nav {
@@ -916,29 +903,27 @@ footer {
 
 // Keep every text link on the same theme palette, including component-specific links.
 html[data-theme="light"] a,
-html[data-theme="light"] .school-logo-label {
+html[data-theme="light"] a {
   color: #9a7100 !important;
 }
 html[data-theme="light"] a:hover {
   color: #6f5000 !important;
 }
 html[data-theme="dark"] a,
-html[data-theme="dark"] .school-logo-label {
+html[data-theme="dark"] a {
   color: #3eb7f0 !important;
 }
 html[data-theme="dark"] a:hover {
   color: #69bfff !important;
 }
 @media (prefers-color-scheme: light) {
-  html:not([data-theme]) a,
-  html:not([data-theme]) .school-logo-label {
+  html:not([data-theme]) a {
     color: #9a7100 !important;
   }
   html:not([data-theme]) a:hover { color: #6f5000 !important; }
 }
 @media (prefers-color-scheme: dark) {
-  html:not([data-theme]) a,
-  html:not([data-theme]) .school-logo-label {
+  html:not([data-theme]) a {
     color: #3eb7f0 !important;
   }
   html:not([data-theme]) a:hover { color: #69bfff !important; }
