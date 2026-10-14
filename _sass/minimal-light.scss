@@ -113,6 +113,45 @@ body {
   color: #0b4a7a;
 }
 
+.school-link {
+  color: #1769aa;
+}
+
+.school-logos {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: -0.25rem 0 0.25rem;
+}
+
+.school-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+}
+
+.school-logo img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-height: 34px;
+  max-width: 72px;
+  object-fit: contain;
+}
+
+.school-logo-gsu img {
+  max-width: 38px;
+}
+
+.school-logo-msu img {
+  max-width: 68px;
+}
+
+.school-logo-uibe img {
+  max-width: 38px;
+}
+
 @media (prefers-color-scheme: dark) {
   .reviewer-link {
     color: #69bfff;
@@ -120,6 +159,10 @@ body {
 
   .reviewer-link:hover {
     color: #9bd4ff;
+  }
+
+  .school-link {
+    color: #69bfff;
   }
 
   .top-nav {
@@ -179,6 +222,7 @@ html[data-theme="dark"] .theme-toggle { color: #3eb7f0; }
 html[data-theme="dark"] .top-nav a.active { border-color: #3eb7f0; }
 html[data-theme="dark"] .reviewer-link { color: #69bfff; }
 html[data-theme="dark"] .reviewer-link:hover { color: #9bd4ff; }
+html[data-theme="dark"] .school-link { color: #69bfff; }
 html[data-theme="dark"] .theme-toggle:hover,
 html[data-theme="dark"] .theme-toggle:focus-visible { border-color: #3eb7f0; background-color: #20212b; }
 
@@ -203,6 +247,7 @@ html[data-theme="dark"] .theme-toggle:focus-visible { border-color: #3eb7f0; bac
   html[data-theme="light"] .social-icons a:hover { background-color: #fff; }
   html[data-theme="light"] .top-nav { border-bottom-color: #e5e5e5; }
   html[data-theme="light"] .top-nav a { color: #9a7100; }
+  html[data-theme="light"] .school-link { color: #1769aa; }
   html[data-theme="light"] .theme-toggle { color: #8a6500; }
   html[data-theme="light"] .top-nav a:hover,
   html[data-theme="light"] .top-nav a.active,
