@@ -4,7 +4,7 @@ title: Curriculum Vitae
 permalink: /cv/
 ---
 
-# Curriculum Vitae
+## Curriculum Vitae
 
 <p class="page-lede">Full academic CV, including research, publications, professional experience, honors, and memberships.</p>
 

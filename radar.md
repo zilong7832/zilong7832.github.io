@@ -1,16 +1,16 @@
 ---
 layout: homepage
-title: Others
+title: More
 permalink: /radar/
 ---
 
 {% include services.md %}
 
-<h2 id="presentations" style="margin: 2px 0px 0px;">Presentations</h2>
+<h2 id="presentations">Presentations</h2>
 
-<h4 style="margin:0 10px 0;">Posters</h4>
+<h4>Posters</h4>
 
-<ul style="margin:0 0 5px;">
+<ul>
   <li>
     <a href="https://arxiv.org/abs/2606.19057">
       <autocolor>Quantifying and Auditing LLM Evaluation via Positive–Unlabeled Learning</autocolor>

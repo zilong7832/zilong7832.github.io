@@ -1,8 +1,8 @@
-<h2 id="professional-service" style="margin: 2px 0px 0px;">Professional Service</h2>
+<h2 id="professional-service">Professional Service</h2>
 
-<h4 style="margin:0 10px 0;">Conference Reviewer</h4>
+<h4>Conference Reviewer</h4>
 
-<ul style="margin:0 0 5px;">
+<ul>
   <li>
     <a href="https://neurips.cc/Conferences/2026">
       <autocolor>Conference on Neural Information Processing Systems (NeurIPS), 2026</autocolor>

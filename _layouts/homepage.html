@@ -95,8 +95,8 @@
       {% if site.menu %}
       <nav class="top-nav" aria-label="Primary navigation">
         {% for item in site.menu %}
-          {% assign item_url = item.url | append: '/' %}
-          {% assign current_url = page.url | append: '/' %}
+          {% assign item_url = item.url | append: '/' | replace: '//', '/' %}
+          {% assign current_url = page.url | append: '/' | replace: '//', '/' %}
           <a href="{{ item.url | relative_url }}"{% if current_url == item_url or page.url == item.url %} class="active" aria-current="page"{% endif %}>{{ item.name }}</a>
         {% endfor %}
       </nav>
