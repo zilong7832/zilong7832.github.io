@@ -913,3 +913,33 @@ footer {
   display:none;
   font-family: monospace;
 }
+
+// Keep every text link on the same theme palette, including component-specific links.
+html[data-theme="light"] a,
+html[data-theme="light"] .school-logo-label {
+  color: #9a7100 !important;
+}
+html[data-theme="light"] a:hover {
+  color: #6f5000 !important;
+}
+html[data-theme="dark"] a,
+html[data-theme="dark"] .school-logo-label {
+  color: #3eb7f0 !important;
+}
+html[data-theme="dark"] a:hover {
+  color: #69bfff !important;
+}
+@media (prefers-color-scheme: light) {
+  html:not([data-theme]) a,
+  html:not([data-theme]) .school-logo-label {
+    color: #9a7100 !important;
+  }
+  html:not([data-theme]) a:hover { color: #6f5000 !important; }
+}
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme]) a,
+  html:not([data-theme]) .school-logo-label {
+    color: #3eb7f0 !important;
+  }
+  html:not([data-theme]) a:hover { color: #69bfff !important; }
+}
