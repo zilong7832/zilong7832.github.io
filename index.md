@@ -5,7 +5,7 @@ title: Zilong Zhang
 
 ## Zilong Zhang
 
-I am a Ph.D. student in Machine Learning & Data Science in the Department of Mathematics and Statistics at Georgia State University, advised by <a href="https://chikuang.github.io/" style="font-weight:bold;">Dr. Chi-Kuang Yeh</a>. I previously earned an M.S. in Statistics from Michigan State University and a B.S. in Financial Mathematics from the University of International Business and Economics.
+I am a Ph.D. student in Machine Learning & Data Science in the <a href="https://mathstat.gsu.edu/">Department of Mathematics and Statistics at Georgia State University</a>, advised by <a href="https://chikuang.github.io/" style="font-weight:bold;">Dr. Chi-Kuang Yeh</a>. I previously earned an M.S. in Statistics from the <a href="https://stt.msu.edu/">Department of Statistics and Probability at Michigan State University</a> and a B.S. in Financial Mathematics from the <a href="https://english.uibe.edu.cn/schools/scienceengineering/index.htm">School of Statistics at the University of International Business and Economics</a>.
 
 ## Research Interests
 
