@@ -17,6 +17,7 @@ My research develops statistical methods for reliable, uncertainty-aware inferen
 
 ## News
 
+- **Oct 2026:** Received a [NeurIPS 2026](https://neurips.cc/Conferences/2026) Financial Assistance Award, covering full conference and workshop registration in Atlanta.
 - **Oct 2026:** Presented the poster *Quantifying and Auditing LLM Evaluation via Positive–Unlabeled Learning* at [Georgia Statistics Day 2026](https://sites.gatech.edu/gsd2026/), Georgia Tech, Atlanta.
 {% assign selected_publications = site.data.publications.main | where: "selected", true %}
 {% for publication in selected_publications %}

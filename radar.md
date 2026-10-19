@@ -17,6 +17,14 @@ permalink: /radar/
   </li>
 </ul>
 
+<h2 id="honors-awards">Honors &amp; Awards</h2>
+
+<ul>
+  <li>
+    <a href="https://neurips.cc/Conferences/2026">NeurIPS 2026</a> Financial Assistance Award, Oct. 2026
+  </li>
+</ul>
+
 ## Research Radar
 
 Recent papers related to topics I am currently following.
