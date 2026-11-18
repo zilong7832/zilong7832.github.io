@@ -12,8 +12,19 @@ permalink: /radar/
 
 <ul>
   <li>
+    Poster presentation — <a href="https://graduate.gsu.edu/graduateconference/">Graduate Conference for Research, Scholarship and Creative Activity</a>, Georgia State University, Atlanta, GA, Nov. 18, 2026
+  </li>
+  <li>
     Quantifying and Auditing LLM Evaluation via Positive–Unlabeled Learning
     — <a href="https://sites.gatech.edu/gsd2026/">Georgia Statistics Day 2026</a>, Georgia Tech, Atlanta, GA, Oct. 2026
+  </li>
+</ul>
+
+<h2 id="student-mentoring">Student Mentoring</h2>
+
+<ul>
+  <li>
+    Devarsh Bandla — Honors Finance student, J. Mack Robinson College of Business, Georgia State University.
   </li>
 </ul>
 
