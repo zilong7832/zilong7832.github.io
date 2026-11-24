@@ -5,7 +5,7 @@ title: Zilong Zhang
 
 ## Zilong Zhang
 
-I am a Ph.D. student in Machine Learning & Data Science in the Math & Statistics Department at <a class="school-link" href="https://www.gsu.edu/">Georgia State University</a>, advised by <a href="https://chikuang.github.io/" style="font-weight:bold;">Dr. Chi-Kuang Yeh</a>. I previously earned an M.S. in Statistics in the Statistics & Probability Department at <a class="school-link" href="https://msu.edu/">Michigan State University</a> and a B.S. in Financial Mathematics through the School of Statistics at the <a class="school-link" href="https://english.uibe.edu.cn/">University of International Business and Economics</a>.
+I am a Ph.D. candidate in Machine Learning & Data Science in the Math & Statistics Department at <a class="school-link" href="https://www.gsu.edu/">Georgia State University</a>, advised by <a href="https://chikuang.github.io/" style="font-weight:bold;">Dr. Chi-Kuang Yeh</a>. I previously earned an M.S. in Statistics in the Statistics & Probability Department at <a class="school-link" href="https://msu.edu/">Michigan State University</a> and a B.S. in Financial Mathematics through the School of Statistics at the <a class="school-link" href="https://english.uibe.edu.cn/">University of International Business and Economics</a>.
 
 ## Research Interests
 
@@ -17,6 +17,7 @@ My research develops statistical methods for reliable, uncertainty-aware inferen
 
 ## News
 
+- **Nov 2026:** Passed the Ph.D. qualifying exam and advanced to Ph.D. candidacy.
 - **Nov 2026:** Presented a poster at the [Graduate Conference for Research, Scholarship and Creative Activity](https://graduate.gsu.edu/graduateconference/), Georgia State University, Atlanta.
 - **Oct 2026:** Received a [NeurIPS 2026](https://neurips.cc/Conferences/2026) Financial Assistance Award, covering full conference and workshop registration in Atlanta.
 - **Oct 2026:** Presented the poster *Quantifying and Auditing LLM Evaluation via Positive–Unlabeled Learning* at [Georgia Statistics Day 2026](https://sites.gatech.edu/gsd2026/), Georgia Tech, Atlanta.
