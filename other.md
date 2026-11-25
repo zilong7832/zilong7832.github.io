@@ -1,40 +1,34 @@
 ---
 layout: homepage
 title: More
-permalink: /radar/
+permalink: /other/
+redirect_from:
+  - /radar/
 ---
-
-{% include services.md %}
-
-<h2 id="presentations">Presentations</h2>
-
-<h4>Posters</h4>
-
-<ul>
-  <li>
-    Poster presentation — <a href="https://graduate.gsu.edu/graduateconference/">Graduate Conference for Research, Scholarship and Creative Activity</a>, Georgia State University, Atlanta, GA, Nov. 18, 2026
-  </li>
-  <li>
-    Quantifying and Auditing LLM Evaluation via Positive–Unlabeled Learning
-    — <a href="https://sites.gatech.edu/gsd2026/">Georgia Statistics Day 2026</a>, Georgia Tech, Atlanta, GA, Oct. 2026
-  </li>
-</ul>
-
-<h2 id="student-mentoring">Student Mentoring</h2>
-
-<ul>
-  <li>
-    Devarsh Bandla — Honors Finance student, J. Mack Robinson College of Business, Georgia State University.
-  </li>
-</ul>
 
 <h2 id="honors-awards">Honors &amp; Awards</h2>
 
 <ul>
-  <li>
-    <a href="https://neurips.cc/Conferences/2026">NeurIPS 2026</a> Financial Assistance Award, Oct. 2026
-  </li>
+  <li><a href="https://neurips.cc/Conferences/2026">NeurIPS 2026</a> Financial Assistance Award, Oct. 2026</li>
 </ul>
+
+<h2 id="presentations">Presentations</h2>
+
+<ul>
+  <li>Poster, <a href="https://graduate.gsu.edu/graduateconference/">Graduate Conference for Research, Scholarship and Creative Activity</a>, Georgia State University, Nov. 2026</li>
+  <li>Poster, <em>Quantifying and Auditing LLM Evaluation via Positive–Unlabeled Learning</em>, <a href="https://sites.gatech.edu/gsd2026/">Georgia Statistics Day 2026</a>, Georgia Tech, Oct. 2026</li>
+</ul>
+
+{% include services.md %}
+
+<h2 id="student-mentoring">Student Mentoring</h2>
+
+<ul>
+  <li>Devarsh Bandla, Honors Finance student, J. Mack Robinson College of Business, Georgia State University</li>
+</ul>
+
+{% comment %}
+Research Radar is hidden for now. Remove this comment block to bring it back.
 
 ## Research Radar
 
@@ -59,6 +53,7 @@ Recent papers related to topics I am currently following.
     </a>
   </p>
 </div>
+{% endcomment %}
 
 ## Travel Footprints
 

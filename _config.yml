@@ -51,10 +51,14 @@ menu:
   - name: "Publications"
     url: "/publications/"
   - name: "More"
-    url: "/radar/"
+    url: "/other/"
   - name: "CV"
     url: "/cv/"
 
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-redirect-from
 
 # The following files will be removed from the generated website.
 exclude:
